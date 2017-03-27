@@ -1,15 +1,23 @@
+// Example is not used
 public class Example {
-  public static void notUsed() {
-  	used();
-  }
+    // notUsed is not used
+    public static void notUsed() {
+        used();
+    }
 
-  public static void used() {
-  }
+    // used is really used!
+    public static void used() {
+    }
 
-  public static void main(String[] args) {
-  	int x = 2;
+    // method main is not called in the code
+    // args is used!
+    public static void main(String[] args) {
+        // unusedVar is not used
+        int unusedVar = 2;
 
-    System.out.println("Hello " + args[0]);
-  }
+        //System.out.println(unusedVar);
+
+        System.out.println("Hello " + args[0]);
+    }
 }
 
