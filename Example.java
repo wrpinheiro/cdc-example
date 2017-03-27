@@ -15,7 +15,7 @@ public class Example {
         // unusedVar is not used
         int unusedVar = 2;
 
-        // System.out.println(unusedVar);
+        System.out.println(unusedVar);
 
         System.out.println("Hello " + args[0]);
     }
