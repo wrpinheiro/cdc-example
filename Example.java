@@ -1,9 +1,9 @@
 // Example is not used
 public class Example {
     // notUsed is not used
-    public static void notUsed() {
-        used();
-    }
+    // public static void notUsed() {
+    //     used();
+    // }
 
     // used is really used!
     public static void used() {
