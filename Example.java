@@ -9,6 +9,12 @@ public class Example {
     public static void used() {
     }
 
+    private int unusedPrivateMethod() {
+    }
+
+    private int usedPrivateMethod(int i) {
+    }
+
     // method main is not called in the code
     // args is used!
     public static void main(String[] args) {
@@ -18,6 +24,7 @@ public class Example {
         // System.out.println(unusedVar);
 
         System.out.println("Hello " + args[0]);
+
+        new Example().usedPrivateMethod(1);
     }
 }
-
