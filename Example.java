@@ -1,5 +1,5 @@
 public class Example {
-    public void printHiThere() {
+    public printHiThere() {
         System.out.println("Hi there");
     }
 }
