@@ -1,12 +1,5 @@
 public class Example {
     public void printHiThere() {
-        System.out.println(aLoudHiThere(
-            "Hi there"), null);
+        System.out.println("Hi there");
     }
-
-    private String aLoudHiThere(String msg,
-        String otherMsg) {
-        return msg.toUpperCase();
-    }
-
 }
