@@ -8,4 +8,8 @@ public class Example {
         String anotherMsg) {
         return msg;
     }
+
+    private String oops() {
+        return "";
+    }
 }
