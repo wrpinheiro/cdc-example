@@ -4,6 +4,6 @@ public class Example {
     }
 
     private String sayHi(String msg) {
-        return "Hi there";
+        return msg;
     }
 }
