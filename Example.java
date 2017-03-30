@@ -4,4 +4,8 @@ public class Example {
 
       System.out.println(value.toUpperCase());
     }
+
+    private String formatValue(String value) {
+        return value.toUpperCase();
+    }
 }
