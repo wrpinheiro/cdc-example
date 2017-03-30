@@ -5,7 +5,7 @@ public class Example {
     }
 
     private String aLoudHiThere(String msg) {
-        return "HI THERE";
+        return msg.toUpperCase();
     }
 
 }
