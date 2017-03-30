@@ -1,10 +1,11 @@
 public class Example {
     public void printHiThere() {
         System.out.println(aLoudHiThere(
-            "Hi there"));
+            "Hi there"), null);
     }
 
-    private String aLoudHiThere(String msg) {
+    private String aLoudHiThere(String msg,
+        String otherMsg) {
         return msg.toUpperCase();
     }
 
