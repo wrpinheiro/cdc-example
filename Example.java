@@ -1,6 +1,6 @@
 public class Example {
     public void printHiThere() {
-        System.out.println("Hi there");
+        System.out.println(sayHi());
     }
 
     private String sayHi() {
