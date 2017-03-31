@@ -1,8 +1,4 @@
-package io.reactivex.annotations;
-
 import java.lang.annotation.*;
-
-import io.reactivex.schedulers.Schedulers;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
