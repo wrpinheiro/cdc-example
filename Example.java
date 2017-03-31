@@ -12,4 +12,8 @@ public class Example {
     private String oops() {
         return "";
     }
+
+    public String nonUsedPublicMethod(int x) {
+        return null;
+    }
 }
