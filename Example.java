@@ -6,6 +6,9 @@ public class Example {
 
     private String sayHi(String msg,
         String anotherMsg) {
+
+        String hey = "Hey";
+
         return msg;
     }
 
